@@ -1,11 +1,11 @@
-ibrary(ggplot2)
+library(ggplot2)
 library(dplyr)
 library(readr)
 library(lubridate)
 
-df<- read_csv("hourly_44201_2015.zip")
-df2<- read_csv("hourly_42401_2015.zip")
-
+df<- read_csv("Ozone.zip")
+df2<- read_csv("SO2.zip")
+df3<- read_csv("pm25")
 
 #Number of Method used /Tues
 df%>%
