@@ -29,3 +29,5 @@ df%>%
   group_by(`Method Type`,`Method Name`)%>%
   summarise(n())
   
+df4<- read.csv("accident.csv")
+
